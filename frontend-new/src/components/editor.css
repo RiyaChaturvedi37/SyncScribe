@@ -1,0 +1,603 @@
+/* .editor-container {
+  display: flex;
+  justify-content: center; /* poore page me center */
+  /* align-items: flex-start;
+  margin-top: 20px;
+  gap: 40px; /* document aur editor ke beech space */
+/* }  */
+
+/* .document {
+  flex: 2;
+  padding: 20px;
+  background: #030303;
+  border-radius: 10px;
+  min-height: 400px;
+}
+
+.editor-panel {
+  flex: 1;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  min-height: 400px;
+}
+
+.editor-panel textarea {
+  width: 100%;
+  height: 350px;
+  border: 1px solid #0e0404;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+} */ 
+
+
+/* Sidebar styling */
+/* .sidebar {
+  background-color: #1a1a1a;
+  width: 250px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebar button {
+  background: #2d2d2d;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar button:hover {
+  background: #444;
+} */
+
+/* Editor container */
+/* .editor-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;   
+  align-items: flex-start;   
+  padding: 40px;
+  overflow: auto;
+} */
+
+/* Document editor box */
+/* .editor-box {
+  background: white;
+  color: black;
+  border-radius: 12px;
+  box-shadow: 0px 8px 24px rgba(0,0,0,0.3);
+  padding: 24px;
+  width: 800px;
+  min-height: 90vh;
+} */
+
+/* Document heading */
+/* .editor-box h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 16px;
+} */
+
+/* Quill editor customization */
+/* .ql-container {
+  border: none !important;
+}
+
+.ql-editor {
+  min-height: 70vh;
+  font-size: 16px;
+  line-height: 1.6;
+} */
+
+/* Page wrapper for sidebar + editor */
+/* .page-wrapper {
+  display: flex;
+  height: 100vh;
+  background-color: #000; /* black background */
+  /* color: white;
+} */
+
+/* Sidebar */
+/* .sidebar {
+  background-color: #1a1a1a;
+  width: 250px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebar button {
+  background: #080101;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar button:hover {
+  background: #444;
+}
+ */
+/* Editor container */
+/* .editor-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  /* align-items: flex-start;   /* start from top */
+  /* padding: 40px;
+  overflow: auto;
+} */ 
+
+/* Document editor box */
+/* .editor-box {
+  background: white;
+  color: black;
+  border-radius: 12px;
+  box-shadow: 0px 8px 24px rgba(0,0,0,0.3);
+  padding: 24px;
+  width: 800px;
+  min-height: 90vh;
+}
+ */
+/* Document heading */
+/* .editor-box h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 16px;
+} */
+
+/* Quill editor customization */
+/* .ql-container {
+  border: none !important;
+}
+
+.ql-editor {
+  min-height: 70vh;
+  font-size: 16px;
+  line-height: 1.6;
+} */
+
+/* Quill editor base */
+/* .custom-quill {
+  border: none;
+  min-height: 70vh;
+  font-size: 16px;
+  line-height: 1.6;
+} */
+
+/* Toolbar styling */
+/* .custom-quill .ql-toolbar {
+  border-radius: 8px 8px 0 0;
+  border: 1px solid #ddd;
+} */
+
+/* Editor area */
+/* .custom-quill .ql-container {
+  border: 1px solid #ddd;
+  border-radius: 0 0 8px 8px;
+  min-height: 70vh;
+}
+.doc-title {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ddd;
+}
+.doc-title:focus {
+  border-bottom: 2px solid #4a90e2;
+}  */
+
+/* Main layout */
+/* .page-wrapper {
+  display: flex;
+  height: 100vh;
+  background-color: #0d0d0d; /* dark black background */
+  /* color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+/* Sidebar */
+/* .sidebar {
+  background: #1c1c1c;
+  width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border-right: 1px solid #333;
+}
+
+.sidebar button {
+  background: #2a2a2a;
+  color: #f5f5f5;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+} */
+
+/* .sidebar button:hover {
+  background: #4a90e2; /* blue hover */
+  /* color: white;
+  transform: scale(1.03);
+} */ 
+
+/* Editor wrapper */
+/* .editor-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  /* align-items: flex-start;   /* top alignment */
+  /* padding: 40px;
+  overflow-y: auto;
+} */ 
+
+/* Editor card */
+/* .editor-box {
+  background: #ffffff;
+  color: #000;
+  border-radius: 14px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.35);
+  padding: 28px;
+  width: 850px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+} */
+
+/* Document title */
+/* .doc-title {
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ccc;
+  transition: 0.3s;
+}
+
+.doc-title:focus {
+  border-bottom: 2px solid #4a90e2;
+} */
+
+/* Quill editor */
+/* .custom-quill {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.custom-quill .ql-toolbar {
+  border-radius: 8px 8px 0 0;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+}
+
+.custom-quill .ql-container {
+  border: 1px solid #ddd;
+  border-radius: 0 0 8px 8px;
+  min-height: 70vh;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 12px;
+}
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --editor-bg: #f5f5f5;
+  --sidebar-bg: #e0e0e0;
+  --btn-bg: #007bff;
+  --btn-text: #ffffff;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #f0f0f0;
+  --editor-bg: #1e1e1e;
+  --sidebar-bg: #1a1a1a;
+  --btn-bg: #1a73e8;
+  --btn-text: #ffffff;
+}
+
+.page-wrapper {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.sidebar {
+  background-color: var(--sidebar-bg);
+}
+
+.editor-box {
+  background-color: var(--editor-bg);
+}
+
+button {
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  border: none;
+  padding: 5px 10px;
+  margin: 5px 0;
+  cursor: pointer;
+} */ 
+
+
+
+/* Sidebar buttons - small, rectangular, stylish */
+/* .sidebar button {
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  padding: 8px 12px;      /* smaller size */
+  /* border-radius: 6px;     subtle rounded corners 
+  /* border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: none;        remove hover effects */
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;                /* space for emoji and text */
+/* }  */
+
+/* Remove hover effect entirely */
+/* .sidebar button:hover {
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  transform: none;
+} */
+
+/* Optional: add slight padding inside sidebar for better spacing */
+/* .sidebar {
+  padding: 15px;
+  gap: 10px;
+} */
+
+/* Quill editor and other elements remain unchanged */
+/* .custom-quill {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+} */
+
+/* Document title */
+/* .doc-title {
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ccc;
+  transition: 0.3s;
+}
+
+.doc-title:focus {
+  border-bottom: 2px solid #4a90e2;
+} */
+
+
+/* Sidebar buttons - small, rectangular, stylish */
+/* .sidebar button {
+  background: var(--btn-bg);
+  /* color: var(--btn-text);
+  padding: 8px 12px;      /* smaller size */
+  /* border-radius: 6px;     /* subtle rounded corners */
+  /* border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: none;        remove hover effects */ 
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */ 
+  /* gap: 6px;                /* space for emoji and text */
+/* }  */
+
+/* Remove hover effect entirely */
+/* .sidebar button:hover {
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  transform: none;
+} */
+
+/* Sidebar spacing remains consistent */
+/* .sidebar {
+  padding: 20px;
+  gap: 14px;
+} */
+
+/* Editor box and Quill editor remain unchanged */
+/* .editor-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;   
+  align-items: flex-start;   
+  padding: 40px;
+  overflow-y: auto;
+}
+
+.editor-box {
+  background: var(--editor-bg);
+  color: var(--text-color);
+  border-radius: 14px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.35);
+  padding: 28px;
+  width: 850px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+} */
+
+/* Document title */
+/* .doc-title {
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ccc;
+  transition: 0.3s;
+}
+
+.doc-title:focus {
+  border-bottom: 2px solid #4a90e2;
+} */ 
+
+
+/* Main layout */
+.page-wrapper {
+  display: flex;
+  height: 100vh;
+  background-color: #f0f0f0;
+  color: #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #f5f5f5;
+  width: 220px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar button {
+  background: #4a90e2;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Editor wrapper */
+.editor-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: flex-start;   /* top alignment */
+  padding: 30px;
+  overflow-y: auto;
+}
+
+/* Editor card */
+.editor-box {
+  background: #ffffff;
+  color: #000;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+  padding: 24px;
+  width: 800px;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Document title */
+.doc-title {
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 8px;
+  margin-bottom: 14px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ccc;
+}
+
+.doc-title:focus {
+  border-bottom: 2px solid #4a90e2;
+}
+
+/* Quill editor */
+.custom-quill {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.custom-quill .ql-toolbar {
+  border-radius: 8px 8px 0 0;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+}
+
+.custom-quill .ql-container {
+  border: 1px solid #ddd;
+  border-radius: 0 0 8px 8px;
+  min-height: 65vh;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+/* Dark Mode Variables */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --editor-bg: #f5f5f5;
+  --sidebar-bg: #e0e0e0;
+  --btn-bg: #007bff;
+  --btn-text: #ffffff;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #f0f0f0;
+  --editor-bg: #1e1e1e;
+  --sidebar-bg: #1a1a1a;
+  --btn-bg: #1a73e8;
+  --btn-text: #ffffff;
+}
+
+.page-wrapper {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.sidebar {
+  background-color: var(--sidebar-bg);
+}
+
+.editor-box {
+  background-color: var(--editor-bg);
+}
+
+button {
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  border: none;
+  padding: 8px 12px;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 8px;
+}
+

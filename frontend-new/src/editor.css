@@ -1,0 +1,53 @@
+.editor-wrapper {
+  display: flex;
+  min-height: 100vh;
+  background: #000; /* black background */
+  color: white;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background: #1a1a1a;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.side-btn {
+  background: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.side-btn:hover {
+  background: #444;
+}
+
+/* Editor area */
+.editor-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* 👈 push editor to right side */
+  align-items: center;       /* 👈 vertically center */
+  padding: 40px;
+}
+
+.editor-box {
+  background: white;
+  color: black;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  width: 800px;
+  min-height: 90vh;
+}
+
+.editor-heading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}

@@ -1,0 +1,269 @@
+ body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #000000, #1a1a1a, #333333);
+  background-size: 400% 400%;
+  animation: shimmer 10s infinite;
+  color: white;
+  height: 100vh;
+  display: flex;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.app {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.left {
+  flex: 0.5;  /* left side 50% width */
+  padding: 40px;
+  background: rgba(20, 20, 20, 0.9);
+  border-radius: 0 20px 20px 0;
+  box-shadow: 5px 0 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right {
+  flex: 0.5;  /* right side 50% width (blank) */
+  background: transparent;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #eee;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  background: #2c2c2c;
+  color: white;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #444;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #666;
+}
+
+a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+} 
+.container {
+  display: flex;
+  min-height: 100vh;
+  background: #121212;
+  color: white;
+}
+
+.left {
+  flex: 3;
+  padding: 20px;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.btn {
+  background: #1e88e5;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #1565c0;
+}
+
+.logout {
+  background: #e53935;
+}
+
+.logout:hover {
+  background: #c62828;
+}
+
+.doc-list {
+  list-style: none;
+  padding: 0;
+}
+
+.doc-item {
+  background: #333333;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.doc-item:hover {
+  background: #444;
+}
+.editor-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #121212;
+  color: white;
+}
+
+.editor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #1e1e1e;
+  border-bottom: 1px solid #333;
+}
+
+.editor-textarea {
+  flex: 1;
+  background: #1e1e1e;
+  color: white;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  resize: none;
+  outline: none;
+}
+
+.btn.back {
+  background: #555;
+}
+
+.btn.back:hover {
+  background: #444;
+}
+
+.btn.save {
+  background: #43a047;
+}
+
+.btn.save:hover {
+  background: #2e7d32;
+}
+
+/* Container full screen */
+.editor-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #1e1e1e;
+  color: white;
+}
+
+/* Top Bar */
+.editor-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background: #111;
+  border-bottom: 1px solid #333;
+}
+
+.editor-header h2 {
+  flex: 1;
+  margin: 0 20px;
+}
+
+/* Back button */
+.back-btn {
+  color: white;
+  text-decoration: none;
+  background: #333;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+/* Save button */
+.save-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.save-btn:hover {
+  background: #218838;
+}
+
+/* Full editor textarea */
+.editor-textarea {
+  flex: 1;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 16px;
+  background: #1e1e1e;
+  color: white;
+  resize: none;
+}
+
+.brand-name {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.logout-bottom {
+  margin-top: auto;
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}   
